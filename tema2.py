@@ -63,7 +63,7 @@ b = np.zeros(C, dtype=np.float32)
 epochs = 80
 batch_size = 128
 lr = 0.18
-reg = 1e-4  # L2 regularization
+reg = 1e-4  #L2 regularization
 
 m = train_X.shape[0]
 
